@@ -1,0 +1,117 @@
+html{
+    background-image: url('watch.jpg');
+    text-align: center;
+}
+.container {
+    width: 25rem;
+    height: 25rem;
+    border: 10px solid rgb(81, 111, 243);
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 1rem;
+   
+}
+.clock{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+.num{
+    height: 100%;
+    position: absolute;
+    left: calc(50% - 0.5em);
+}
+.num div{
+    width: 1rem;
+    line-height: 2em;
+    font-size: 1.5rem;
+    color: rgb(240, 235, 234);
+    text-align: center;
+    vertical-align: middle;
+}
+.num1 {
+    transform: rotate(30deg);
+}
+.num1 div{
+    transform: rotate(-30deg);
+}
+.num2 {
+    transform: rotate(60deg);
+}
+.num2 div{
+    transform: rotate(-60deg);
+}
+.num3 {
+    transform: rotate(90deg);
+}
+.num3 div{
+    transform: rotate(-90deg);
+}
+.num4 {
+    transform: rotate(120deg);
+}
+.num4 div{
+    transform: rotate(-120deg);
+}
+.num5 {
+    transform: rotate(150deg);
+}
+.num5 div{
+    transform: rotate(-150deg);
+}
+.num6 {
+    transform: rotate(180deg);
+}
+.num6 div{
+    transform: rotate(-180deg);
+}
+.num7 {
+    transform: rotate(210deg);
+}
+.num7 div{
+    transform: rotate(-210deg);
+}
+.num8 {
+    transform: rotate(240deg);
+}
+.num8 div{
+    transform: rotate(-240deg);
+}
+.num9 {
+    transform: rotate(270deg);
+}
+.num9 div{
+    transform: rotate(-270deg);
+}
+.num10 {
+    transform: rotate(300deg);
+}
+.num10 div{
+    transform: rotate(-300deg);
+}
+.num11 {
+    transform: rotate(330deg);
+}
+.num11 div{
+    transform: rotate(-330deg);
+}
+.num12 {
+    transform: rotate(360deg);
+}
+.num12 div{
+    transform: rotate(-360deg);
+}
+#all{
+    width: 34%;
+    height: 7px;
+    background: rgb(95, 233, 243);
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  }
